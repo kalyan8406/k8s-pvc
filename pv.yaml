@@ -8,6 +8,5 @@ spec:
     - ReadWriteOnce
   capacity:
     storage: 10Gi
-  hostPath:
-    path: /tmp/demo-pv 
+  
 
