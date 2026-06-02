@@ -3,7 +3,7 @@ kind: PersistentVolume
 metadata:
   name: k8s-pv
 spec:
-  storageClassName: k8sstrg
+  
   accessModes: 
     - ReadWriteOnce
   capacity:
