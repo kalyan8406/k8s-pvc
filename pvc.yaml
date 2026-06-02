@@ -5,9 +5,9 @@ metadata:
 spec:
   storageClassName: k8sstrg
   accessModes: 
-    -ReadWriteOnce
+    - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi  
-  hostpath:
+      storage: 10Gi  
+  hostPath:
     path: /tmp/demo-pv 

@@ -4,9 +4,9 @@ metadata:
   name: k8s-pv
 spec:
   accessModes: 
-    -ReadWriteOnce
+    - ReadWriteOnce
   capacity:
     storage: 10Gi
-  hostpath:
+  hostPath:
     path: /tmp/demo-pv 
 
