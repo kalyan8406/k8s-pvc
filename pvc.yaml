@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: k8s-pvc
 spec:
-  storageClassName: k8sstrg
+  
   accessModes: 
     - ReadWriteOnce
   resources:
