@@ -1,0 +1,11 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: k8sstrg
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "false"
+  provisioner:  kubernetes.io/aws-ebs
+  volumeBindingMode: WaitForFirstConsumer
+  parameters:
+    type: gp3
+    
